@@ -1,0 +1,1 @@
+/Users/cochise/etc/osx/vim.conf
