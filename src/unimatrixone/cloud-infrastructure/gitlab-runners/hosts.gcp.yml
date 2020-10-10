@@ -1,0 +1,6 @@
+plugin: gcp_compute
+projects:
+- unimatrixqueen
+auth_kind: application
+keyed_groups:
+- key: labels
