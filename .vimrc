@@ -44,3 +44,11 @@ set nomodeline
 :match ExtraWhitespace /\s\+$/
 
 set colorcolumn=80
+filetype plugin indent on
+autocmd FileType html setlocal shiftwidth=2 tabstop=2 expandtab
+autocmd FileType json setlocal shiftwidth=2 tabstop=2 expandtab
+autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
+autocmd FileType make setlocal shiftwidth=2 tabstop=2 noexpandtab
+autocmd FileType rst setlocal shiftwidth=2 tabstop=2 expandtab
+autocmd FileType typescript setlocal shiftwidth=2 tabstop=2 expandtab
+autocmd FileType yaml setlocal shiftwidth=2 tabstop=2 expandtab
